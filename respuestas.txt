@@ -1,0 +1,19 @@
+tl1_tp2_2023-facu20233
+
+f)
+¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+- se observa que en main aparecen los arhivos creeados desde main, y en la rama opcion_2 solo los archivos creeados desde la rama opicion 2 (es como que se actualiza la carpeta local)
+
+- no aparece el archivo tp2_1_2, porque estan en la rama opcion_2
+------------------
+
+vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+
+- no hay cambios* En comment aparecen los arhivos comitiados anteriormente 
+--------------------
+
+Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+
+
+- se juntaron todos los archivos en la rama main
+--------------------------
