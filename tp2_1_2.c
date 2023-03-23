@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-// codigo a completar
+//sin modificar
+
 #define N 20
 
 int main(){
@@ -21,4 +22,3 @@ int main(){
 
     return 0;
 }
-
