@@ -2,22 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 
-//sin modificar
-
 #define N 20
 
-int main(){
+//correcciones
+
+int main() {
 
     int i;
     double vt[N];
+    double *p;
 
     srand(time(NULL));
 
-    for(i = 0;i<N; i++){
-
-    vt[i]=1+rand()%100;
-    printf("%f", vt[i]);
-    
+    for(p = vt; p < vt + N; p++) {
+        *p = 1 + rand() % 100;
+        printf("%f\n", *p);
     }
 
     return 0;
